@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_logo {
+    padding-top: 45px;
+}
+
+.top_menu {
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
