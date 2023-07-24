@@ -4,10 +4,26 @@
 }
 
 .top_logo {
-    padding-top: 45px;
+    margin-top: 40px;
 }
 
 .top_menu {
-    padding-top: 45px;
-    padding-bottom: 50px;
+
+}
+
+.content {
+    margin-top: 89px;
+}
+
+.content_text{
+    margin-top: 17px;
+}
+
+.buttons{
+    margin-top: 37px;
+}
+
+.footer_img{
+    padding-top: 97px;
+    padding-bottom: 97px;
 }
