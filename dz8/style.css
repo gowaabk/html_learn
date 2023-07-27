@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_logo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_menu {
+
+}
+
+.content {
+    margin-top: 89px;
+}
+
+.content_text{
+    margin-top: 17px;
+}
+
+.buttons{
+    margin-top: 37px;
+}
+
+.footer_img{
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
