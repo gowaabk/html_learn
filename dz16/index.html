@@ -1,17 +1,5 @@
-<!-- Урок 16. Семинар. Новые возможности CSS3. Добавление анимации
-Макет https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=190%3A1194
-
-На данном уроке нам необходимо доделать подвал, главной страницы интернет-магазина.
-
-Продолжаем работу с проектом из прошлого урока:
-* Добавляем весь контент подвала сайта.
-* Создаём планшетную версию проекта.
-* Создаем мобильную версию проекта.
-* Добавляем эффекты наведения. -->
-
-
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -26,12 +14,12 @@
 <body>
     <div class="header center">
         <div class="header_item_nav">
-            <a class="header-logo" href="#"><img src="./img/Logo.png" alt="logo"></a>
+            <a class="header-logo" href="#"><img src="img/logo.png" alt="logo"></a>
             <a class="header-search-shortcut" href="#"><img src="img/search_shortcut.svg" alt="search_shortcut"></a>
             <a class="header-menu-buttons item-count" href="#"><img class="image-menu-buttons"
-                    src="./img/menu_buttons.svg" alt="menu_buttons"></a>
-            <a class="header-menu-buttons-mobile" href="#"><img src="img/menu-mobile.svg" alt="header-menu-buttons-mobile"></a>
-            
+                    src="img/menu_buttons.svg" alt="menu_buttons"></a>
+            <a class="header-menu-buttons-mobile" href="#"><img src="img/menu-mobile.svg"
+                    alt="header-menu-buttons-mobile"></a>
         </div>
         <div class="header_item_title">
             <img class="man_title" src="img/man_title.png" alt="man_title">
@@ -75,6 +63,9 @@
     <div class="content">
         <div class="content-item">
             <div class="img-block block-1">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
             </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
@@ -87,6 +78,9 @@
         <div class="content-item">
             <div class="bg-font-pink">
                 <div class="img-block block-2"> </div>
+                <div class="hover-block hover-2" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
             </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
@@ -98,6 +92,9 @@
         </div>
         <div class="content-item">
             <div class="img-block block-3">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
             </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
@@ -109,6 +106,9 @@
         </div>
         <div class="content-item">
             <div class="img-block block-4">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
             </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
@@ -120,6 +120,9 @@
         </div>
         <div class="content-item">
             <div class="img-block block-5">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
             </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
@@ -131,6 +134,9 @@
         </div>
         <div class="content-item">
             <div class="img-block block-6">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
             </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
@@ -175,13 +181,12 @@
                 <div class="subscribe_2">
                     <h3 class="subscribe-header">SUBSCRIBE</h3>
                     <p class="subscribe-header-small">FOR OUR NEWLETTER AND PROMOTION</p>
-                </div>
-                <div>
-                    <form action="#" class="subscribe-input">
-                        <input required type="email" />
-                        <button type="submit">Subscribe</button>
+                    <form class="form" action="#">
+                        <input class="email" type="email" required placeholder="Enter Your Email">
+                        <button class="button_subscribe" type="submit">Subscribe</button>
                     </form>
                 </div>
+                
             </div>
         </div>
         <div class="footer-social">
@@ -237,6 +242,9 @@
             </div>
         </div>
     </div>
+
+
+
 
 </body>
 
